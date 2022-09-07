@@ -211,7 +211,7 @@
 	-------------------------------------------------------*/
 	$('.statistic').appear(function() {
 		$('.timer').countTo({
-			speed: 4000,
+			speed: 1000,
 			refreshInterval: 60,
 			formatter: function (value, options) {
 				return value.toFixed(options.decimals);
@@ -336,6 +336,24 @@
 
 			// style-3
 			$("#owl-testimonials-boxes").owlCarousel({
+			
+				navigation: true,
+				slideSpeed: 300,
+				pagination: true,
+				paginationSpeed: 400,
+				stopOnHover: false,
+				navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+				itemsCustom: [
+					[0, 1],      
+					[450, 1],
+					[700, 2],
+					[1200, 3]
+				],
+			
+			})
+
+			// style-3
+			$("#owl-teams_2").owlCarousel({
 			
 				navigation: true,
 				slideSpeed: 300,

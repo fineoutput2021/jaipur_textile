@@ -123,7 +123,7 @@ p {
 
 .downloadbtn a
 {
-  background-color: black;
+  background-color: #eb008b;
  padding: 0px 10px;
  color: #fff !important;
  font-weight:normal !important;
@@ -131,7 +131,7 @@ p {
 .downloadbtn a:hover 
 {
   background-color: #fff !important;
-  border: 0.5px solid black !important;
+  border: 0.5px solid #eb008b !important;
   color: #000 !important;
   font-weight: bold !important;
 }
@@ -5607,7 +5607,7 @@ table th {
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
   border-top: 1px solid #f2f2f2;
-  padding: 10px;
+  padding: 20px;
 }
 
 .table:not(.table-bordered):not(.table-striped)>thead>tr {
@@ -5619,9 +5619,10 @@ table th {
 }
 
 .table thead tr th {
-  font-size: 11px;
+  /* font-size: 11px; */
   font-family: "Montserrat", sans-serif;
-  color: #121212;
+  color: #eb008b;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -6236,12 +6237,12 @@ img.alignright { float: right; margin: 10px 0 10px 20px; }
 }
 
 .btn.btn-dark {
-  background-color: #2b2b2b;
+  background-color: #eb008b;
 }
 
 .btn.btn-light {
   background-color: #ececec;
-  color: #121212;
+  color: #eb008b;
 }
 
 .btn-lg {
@@ -6270,14 +6271,15 @@ img.alignright { float: right; margin: 10px 0 10px 20px; }
 }
 
 .btn.btn-white {
-  color: #121212;
+  color: #000;
   background-color: #fff;
+  border: 1px solid #000;
 }
 
 .btn.btn-stroke {
-  border-color: #121212;
+  border-color: #eb008b;
   background-color: transparent;
-  color: #121212;
+  color: #eb008b;
 }
 
 .rounded {
@@ -6322,7 +6324,46 @@ img.alignright { float: right; margin: 10px 0 10px 20px; }
   background-color: #121212;
 }
 
-
+.contacticons a
+{
+  margin-right: 20px;
+}
+.pricing-table img
+{
+  width:100%;
+}
+.tag
+{
+  background-color: #ed7ebf;
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: .5px;
+}
+.tag_2
+{
+  background-color: #ed7ebf;
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: .5px;
+}
+.ullists li
+{
+  padding-bottom: 15px;
+}
+.hrtag
+{
+  border: 1px solid #e05eaa;
+}
+.product-item
+{
+  padding-bottom: 10px;
+}
+.product-item:hover 
+{
+  box-shadow: 0px 1px 10px rgb(211, 208, 208);
+}
 /* Lightboxes
 -------------------------------------------------------*/
 .modal {
