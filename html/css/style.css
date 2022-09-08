@@ -124,7 +124,16 @@ p {
   font-weight: normal;
   line-height: 26px;
 }
-
+.twolines
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  min-height: 77px !important;
+}
 .downloadbtn a
 {
   background-color: #eb008b;

@@ -329,7 +329,8 @@
 				pagination: true,
 				paginationSpeed: 400,
 				singleItem: true,
-				stopOnHover: true
+				stopOnHover: true,
+				autoPlay: true
 		 
 			})
 
@@ -340,6 +341,7 @@
 				navigation: true,
 				slideSpeed: 300,
 				pagination: true,
+				autoPlay: true,
 				paginationSpeed: 400,
 				stopOnHover: false,
 				navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
@@ -359,6 +361,7 @@
 				slideSpeed: 300,
 				pagination: true,
 				paginationSpeed: 400,
+				autoPlay: true,
 				stopOnHover: false,
 				navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 				itemsCustom: [
@@ -378,6 +381,7 @@
 
 				navigation: true,
 				pagination: false,
+				autoPlay: true,
 				navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 				itemsCustom: [
 					[0, 1],      
@@ -399,6 +403,7 @@
 				
 				autoHeight: true,
 				navigation: true,
+				autoPlay: true,
 				slideSpeed: 700,
 				singleItem: true,
 				navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
