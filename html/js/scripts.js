@@ -403,7 +403,7 @@
 				
 				autoHeight: true,
 				navigation: true,
-				autoPlay: true,
+				autoPlay: false,
 				slideSpeed: 700,
 				singleItem: true,
 				navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
