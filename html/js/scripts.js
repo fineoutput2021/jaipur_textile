@@ -877,7 +877,7 @@
 
 	var wow = new WOW({
 		offset: 50,
-		mobile: false
+		mobile: true
 	});
 
 	wow.init();
