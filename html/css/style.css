@@ -2954,12 +2954,27 @@ body.fs-open {
   position: relative;
   text-align: center;
 }
-
+.Check 
+{
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+.product-title
+{
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.product-title:hover 
+{
+  color: none !important;
+  cursor: default;
+}
 .product-details>h3,
 .product-list-widget a>span,
 .table.shop_table tr td.product-name a {
   line-height: 14px;
-  margin-bottom: 3px;
+  margin-bottom:15px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: normal;
