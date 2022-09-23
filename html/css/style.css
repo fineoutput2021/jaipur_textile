@@ -6776,7 +6776,11 @@ img.alignright {
 .btn.btn-dark {
   background-color: #eb008b;
 }
-
+.col-md-6 img 
+{
+  width: 100% !important;
+  
+}
 .btn.btn-light {
   background-color: #ececec;
   color: #eb008b;
